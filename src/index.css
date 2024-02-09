@@ -1,0 +1,11 @@
+:root{
+  --greenPrime:rgb(112, 209, 112);
+  --backgroundDark1:rgb(4, 54, 31);
+  /* --backgroundDark2:rgb(5, 58, 34); */
+}
+body{
+  background-color: #292929;
+  color:white;
+  margin:0;
+  background-color: var(--backgroundDark1);
+}

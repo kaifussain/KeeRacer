@@ -1,0 +1,8 @@
+#backStage{
+    background-color: rgba(29, 29, 29, 0.218);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+}

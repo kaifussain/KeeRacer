@@ -1,18 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/Header'
-import GamesTile from './components/GamesTile'
+import "./App.css";
+import Header from "./components/Header";
+import GamesTile from "./pages/Home";
+import PracticePage from "./pages/PracticePage";
 
 function App() {
-
   return (
     <>
-      <Header/>
-      <div id='midBody'>
-        <GamesTile/>
-      </div>
+      <Header />
+        {/* <GamesTile /> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;

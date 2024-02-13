@@ -1,0 +1,19 @@
+#input_inb{
+    background-color: transparent;
+    border:1px solid rgba(255, 75, 75, 0.91);
+    color:rgba(223, 223, 223, 0.837);
+    font-family: monospace;
+    padding:8px 12px;
+    width:295px;
+    text-align: center;
+    margin-top:18px;
+    cursor: default;
+    font-size: 22px;
+    border-right:none;
+    border-left:none;
+    outline:none;
+    transition: all .1s;
+}
+#input_inb:focus{
+    border-color:rgb(162, 231, 162);
+}

@@ -1,0 +1,44 @@
+#practiceBox_act{
+    margin:20px;
+    position:relative;
+    border-radius:8px;
+    padding:20px 10px;
+    margin:26px;
+    border:1px solid var(--greenLine);
+    color:var(--textGreen);
+    font-family: monospace;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title_act{
+    position: absolute;
+    top:-14px;
+    background-color: var(--backgroundDark1);
+    padding:4px;
+    
+}
+#inputBox_act{
+    border:2px solid rgba(255, 255, 255, 0.502);
+    border-radius: 4px;
+    padding:8px 12px;
+    background-color: rgba(255, 255, 255, 0.137);
+    color:rgb(215, 215, 215);
+    width:300px;
+    text-align: center;
+    font-size: 26px;
+
+}
+.wrong{
+    color:rgb(255, 91, 91);
+}
+.right{
+    color:rgb(74, 253, 226) ;
+}
+.current{
+    transition: all .1s;
+    text-shadow:0 0 4px rgb(0, 0, 0);
+    color:white;
+    font-weight: 900;
+}

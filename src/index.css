@@ -1,7 +1,8 @@
 :root{
   --greenPrime:rgb(112, 209, 112);
   --backgroundDark1:rgb(4, 54, 31);
-  /* --backgroundDark2:rgb(5, 58, 34); */
+  --textGreen:rgb(108, 193, 150);
+  --greenLine:rgb(54, 137, 93);
 }
 body{
   background-color: #292929;
@@ -10,8 +11,7 @@ body{
   background-color: var(--backgroundDark1);
   user-select: none;
 }
-/* styles.css */
-@keyframes pop {
+@keyframes popY {
   0% {
     transform:scaleY(0);
     opacity: 0;
@@ -24,7 +24,22 @@ body{
     opacity: 1;
   }
 }
-
 .popY {
+  animation: popY 0.5s ease-out;
+}
+@keyframes pop {
+  0% {
+    transform:scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform:scale(1.1);
+  }
+  100% {
+    transform:scale(1);
+    opacity: 1;
+  }
+}
+.pop {
   animation: pop 0.5s ease-out;
 }

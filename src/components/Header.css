@@ -1,5 +1,4 @@
 #Header{
-    /* border-bottom:1px solid rgb(0, 0, 0); */
     padding:8px 12px;
 }
 #logoTitle{
@@ -9,11 +8,11 @@
 #logoDiv{
     display: flex;
     align-items: center;
+    font-family: monospace;
     flex-direction: column;
     gap:4px;
     width: fit-content;
     font-size: 12px;
-    font-family: monospace;
     color:rgb(94, 189, 96);
     color:var(--greenPrime);
 }

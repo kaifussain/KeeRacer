@@ -1,8 +1,8 @@
 #GamesTile{
-    border:1px solid rgb(54, 137, 93);
-    color:rgb(114, 175, 143);
+    border:1px solid var(--greenLine);
+    color:var(--textGreen);
     border-radius:8px;
-    padding:20px 10px 10px 18px;
+    padding:20px 10px 10px 10px;
     margin:26px;
     position:relative;
     display: flex;
